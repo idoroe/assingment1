@@ -9,3 +9,5 @@ def validate_integer(input_str):
         return True, int(input_str)
     else:
         return False, None
+def subtract(a,b):
+    return a - b
